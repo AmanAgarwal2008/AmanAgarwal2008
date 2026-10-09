@@ -93,6 +93,7 @@ My goal is to become a stronger software engineer by working on increasingly cha
 ## 🤝 Let's Connect
 
 - 🐙 GitHub: [@AmanAgarwal2008](https://github.com/AmanAgarwal2008)
+- 💼 LinkedIn: [Aman Agarwal](https://www.linkedin.com/in/aman-agarwal-0257a3407/)
 - 📧 Email: amanagarwal.202020@gmail.com
 
 ---
