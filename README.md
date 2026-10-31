@@ -1,123 +1,72 @@
-# Hey, I'm Aman Agarwal 👋
+<div align="center">
+<img src="assets/hero.svg" alt="Aman Agarwal — Software Engineering and Creative Technology" width="100%"/>
 
-### Software Developer | IT Student | Building Practical Products with AI, Android, and Backend Engineering
 
-I’m an Information Technology student who enjoys turning ideas into working software. I focus on building real-world applications that combine strong engineering fundamentals with practical product thinking. My interests include Android development, backend systems, databases, AI integrations, and LLM-powered developer workflows.
+GitHub LinkedIn Website
+</div>
 
-- 🔭 **Currently building:** student-focused platforms, Android apps, and developer tools
-- 🧠 **Exploring:** backend architecture, AI/LLMs, software engineering, and product design
-- 🛠️ **Approach:** learn by building, shipping experiments, debugging, and improving
-- 🤝 **Open to:** internships, collaborations, open-source work, and meaningful engineering projects
-- 📍 **Based in:** India
-
----
-
-## 🧰 Core Stack
-
-### Languages
-- Java
-- Kotlin
-- Python
-- JavaScript
-- SQL
-
-### Mobile & Frontend
-- Android Development
-- Jetpack Compose
-- React Native
-- HTML & CSS
-
-### Backend & Data
-- REST API Development
-- PostgreSQL
-- Supabase
-- Firebase
-- Room
-
-### Tools & Workflow
-- Git & GitHub
-- Android Studio
-- Visual Studio Code
-- Docker
-- Linux / CLI tooling
-
-### AI & LLMs
-- LLM integration and experimentation
-- Prompt engineering and AI workflow design
-- Local model tooling and AI-assisted developer workflows
-- Exploring practical AI applications in software products
-
----
-
-## 🚀 Featured Projects
-
-### 📱 AutoUPITracker — Android Expense Tracking
-
-An Android application concept built to simplify UPI transaction tracking, expense organization, and personal finance visibility.
-
-- Built with Kotlin and Jetpack Compose
-- Focuses on local data persistence, transaction categorization, and financial analytics
-- Explores automation, data extraction, OCR-based transaction recognition, and fallback mechanisms
-- Designed for practical personal finance workflows
-
-**Focus:** Android development, data persistence, automation, and user-friendly financial tooling.
-
-### 🎓 MyGPM Student Portal
-
-A collaborative student portal project designed to support student services, academic interaction, and administrative workflows in a connected system.
-
-- Built as a multi-application monorepo
-- Includes student, class representative, admin, and backend components
-- Uses Supabase and structured backend services for database and application logic
-- Designed for scalable, collaborative student experience management
-
-**Focus:** backend engineering, database design, API integration, and collaborative development.
-
-### 🤖 AI & LLM Experiments
-
-I’m actively exploring how large language models and AI tools can improve software development and product experiences.
-
-- Experimenting with coding workflows using LLMs
-- Exploring integration patterns for AI into practical apps
-- Testing local inference tools and AI-assisted developer productivity
-- Investigating how AI can enhance software products in real-world use cases
-
-**Focus:** LLMs, AI-assisted development, developer productivity, and practical AI implementation.
-
----
-
-## 🌱 What I’m Working Toward
-
-I’m continuously strengthening my fundamentals in software engineering while building projects that solve real problems. My goal is to improve as a software engineer by designing cleaner systems, learning better engineering practices, and shipping tools that are useful in the real world.
-
-I’m especially interested in:
-- Android and mobile product development
-- Backend systems and scalable service design
-- Databases and data modeling
-- AI/LLM integrations in real applications
-- Developer tools that improve productivity and workflow efficiency
-
----
-
-## 🧠 AI, LLMs, and Product Thinking
-
-I enjoy exploring how AI can go beyond experimentation and become useful in everyday software products. This includes:
-
-- integrating LLMs into developer tools and workflows
-- using AI to improve user experience and automation
-- building practical AI-enhanced applications
-- learning how AI systems fit into product architecture and real-world constraints
-
-My interest in AI isn’t limited to research — I want to understand how AI can be thoughtfully implemented in products that people actually use.
-
----
-
-## 🤝 Let’s Connect
-
-- 🐙 GitHub: [@AmanAgarwal2008](https://github.com/AmanAgarwal2008)
-- 💼 LinkedIn: https://www.linkedin.com/in/aman-agarwal-0257a3407/
-- 📧 Email: amanagarwal.202020@gmail.com
-
----
-
-*Building, learning, shipping, and exploring AI-powered solutions — one project at a time.* 🚀
+<img src="assets/01-about.svg" alt="01 — The point of view" width="100%"/>
+I’m Aman — a software engineering enthusiast drawn to the space where technical depth meets creative problem-solving.
+I like taking an idea from a rough sketch to a working product: understanding the problem, shaping the architecture, building the interface, connecting the data, and refining the details until the pieces feel like one coherent system.
+My work and experiments revolve around:
+AI engineering — practical LLM applications, local inference, model tooling, and AI-assisted workflows.
+Full-stack development — product interfaces, APIs, databases, and end-to-end application flows.
+Android development — Kotlin, Jetpack Compose, and mobile-first experiences.
+Backend engineering — data modelling, authentication, integrations, and dependable application logic.
+Open source — learning in public, sharing useful work, and building on the ideas of others.
+I’m interested in more than making software run. I’m interested in making it useful, understandable, and thoughtfully engineered.
+<img src="assets/02-systems.svg" alt="02 — How I build" width="100%"/>
+<div align="center"> <img src="assets/system-map.svg" alt="Product engineering system map connecting AI systems, applications, backend and data, and open source" width="100%"/> </div>
+I enjoy working across the boundaries between disciplines. A product rarely lives in just one layer: a good experience depends on the interface, the API, the data model, and the systems behind it all working together.
+<img src="assets/03-work.svg" alt="03 — Selected work" width="100%"/>
+01 / NEET CBT MASTERS
+An online testing platform for NEET preparation
+A product focused on structured practice, computer-based mock tests, and explanations that help students understand the reasoning behind an answer.
+Building an AI-assisted question-generation workflow.
+Organising chapter-wise and full-length test experiences.
+Working on question quality, explanations, and a scalable content pipeline.
+Visit NEET CBT MASTERS ↗
+02 / MyGPM Student Portal
+A connected student-services platform
+A collaborative multi-application project designed around student, class-representative, and administrative workflows.
+Monorepo structure spanning student app, CR app, admin web, and backend.
+Supabase-backed data and application architecture.
+Focus on authentication, database design, and maintainable integration boundaries.
+Explore the public student-app repository ↗
+03 / AutoUPITracker
+An Android-first personal finance experiment
+An exploration of reducing manual expense tracking by turning payment notifications and transaction signals into organised financial records.
+Kotlin and Jetpack Compose.
+Transaction categorisation, local persistence, and spending insights.
+Exploring automation and OCR-assisted transaction capture.
+Project details and implementation are evolving; public source availability may change.
+04 / AI & LLM Lab
+Experiments at the intersection of models and software
+A hands-on space for understanding how language models can become useful components in real developer workflows and products.
+Local model experimentation with Ollama and open-weight models.
+Exploring inference constraints, quantisation, and GPU memory trade-offs.
+AI-assisted coding workflows and agentic developer tools.
+Evaluating practical ways to integrate LLMs into applications.
+<img src="assets/04-toolkit.svg" alt="04 — Tools of the trade" width="100%"/>
+<div align="center">
+LANGUAGES
+Java Kotlin Python JavaScript SQL
+APPLICATIONS & FRONTEND
+Android Jetpack Compose React HTML5 CSS3
+BACKEND, DATA & INFRASTRUCTURE
+Supabase PostgreSQL Firebase Docker Git
+AI & DEVELOPER TOOLING
+Ollama Linux GitHub Actions
+</div>
+<img src="assets/05-now.svg" alt="05 — Now and next" width="100%"/>
+Building and refining products with real user workflows.
+Exploring practical LLM engineering, local inference, and AI-powered features.
+Strengthening backend architecture, API design, and database fundamentals.
+Improving the craft of shipping clean, maintainable software.
+Looking for meaningful open-source contributions and engineering collaborations.
+<img src="assets/06-connect.svg" alt="06 — Find me elsewhere" width="100%"/>
+GitHub: @AmanAgarwal2008
+LinkedIn: Aman Agarwal
+Product: NEET CBT MASTERS
+<div align="center"> 
+ <img src="assets/footer.svg" alt="Make it work. Make it clear. Make it matter." width="100%"/> </div>
