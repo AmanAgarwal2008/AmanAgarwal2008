@@ -1,10 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img">
-<rect width="1100" height="300" rx="16" fill="#17201c"/>
-<g fill="none" stroke="#b7e4c7" stroke-width="2" opacity=".75"><path d="M550 150H180M550 150H920M550 150V65M550 150V245"/></g>
-<g font-family="Arial,sans-serif" text-anchor="middle">
-<rect x="405" y="105" width="290" height="90" rx="12" fill="#28372f" stroke="#b7e4c7"/><text x="550" y="143" fill="#f3f1e8" font-size="23" font-weight="bold">PRODUCT ENGINEERING</text><text x="550" y="169" fill="#b7e4c7" font-size="13">Build · integrate · iterate</text>
-<rect x="55" y="105" width="250" height="90" rx="12" fill="#202923" stroke="#d8b77e"/><text x="180" y="143" fill="#f3f1e8" font-size="20">AI SYSTEMS</text><text x="180" y="169" fill="#c7d2ca" font-size="13">LLMs · inference · tooling</text>
-<rect x="795" y="105" width="250" height="90" rx="12" fill="#202923" stroke="#d8b77e"/><text x="920" y="143" fill="#f3f1e8" font-size="20">APPLICATIONS</text><text x="920" y="169" fill="#c7d2ca" font-size="13">Web · Android · UX</text>
-<rect x="425" y="18" width="250" height="65" rx="10" fill="#202923" stroke="#b7e4c7"/><text x="550" y="57" fill="#f3f1e8" font-size="19">BACKEND &amp; DATA</text>
-<rect x="425" y="217" width="250" height="65" rx="10" fill="#202923" stroke="#b7e4c7"/><text x="550" y="256" fill="#f3f1e8" font-size="19">OPEN SOURCE</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="410" viewBox="0 0 1100 410" role="img" aria-labelledby="t d">
+<title id="t">Aman's engineering system map</title><desc id="d">Animated map connecting AI engineering, full-stack, Android, backend and open source.</desc>
+<style>
+:root{--paper:#f7f5ef;--ink:#20251f;--muted:#667067;--rule:#c9cec5;--accent:#47745b;--accent2:#b47b42;--panel:#eeece4;--ghost:#dfe4dc}
+@media(prefers-color-scheme:dark){:root{--paper:#101612;--ink:#edf1e9;--muted:#a3afa5;--rule:#3b4940;--accent:#b7e4c7;--accent2:#e5b879;--panel:#19231d;--ghost:#26332b}}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.draw{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.5s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.rise{opacity:0;animation:rise .85s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.fade{opacity:0;animation:fade .8s ease forwards}
+@keyframes fade{to{opacity:1}}
+.pop{opacity:0;animation:pop .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes pop{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.flow{stroke-dasharray:3 9;animation:march 1.5s linear infinite}
+@keyframes march{to{stroke-dashoffset:-24}}
+.pulse{animation:pulse 2.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.type{animation:type 3.8s steps(48,end) .9s both}
+@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.cursor{animation:blink .85s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.a1{animation-delay:.15s}.a2{animation-delay:.4s}.a3{animation-delay:.7s}.a4{animation-delay:1s}.a5{animation-delay:1.3s}.a6{animation-delay:1.6s}
+@media(prefers-reduced-motion:reduce){.draw,.rise,.fade,.pop,.flow,.pulse,.type,.cursor{animation:none!important}.draw{stroke-dashoffset:0}.rise,.fade,.pop{opacity:1}.cursor{visibility:visible}}
+</style>
+<rect width="100%" height="100%" rx="12" fill="var(--paper)"/>
+
+<text class="mono" x="36" y="30" fill="var(--muted)" font-size="11" letter-spacing="3">FIG. 01 — THE BUILD PIPELINE</text>
+<g fill="none" stroke="var(--rule)" stroke-width="1.4">
+ <path class="draw a1" d="M550 145L190 90M550 145L910 90M550 175L190 255M550 175L910 255M550 175L550 280"/>
+ <path class="flow" d="M550 145L190 90M550 145L910 90M550 175L190 255M550 175L910 255M550 175L550 280" stroke="var(--accent)" opacity=".55"/>
+</g>
+<g class="pop a1"><rect x="405" y="115" width="290" height="92" rx="5" fill="var(--panel)" stroke="var(--accent)" stroke-width="1.5"/><text class="mono" x="550" y="151" text-anchor="middle" fill="var(--ink)" font-size="19" letter-spacing="2">AMAN / BUILD SYSTEM</text><text class="mono" x="550" y="177" text-anchor="middle" fill="var(--muted)" font-size="11">problem → architecture → product</text></g>
+<g class="pop a2"><rect x="70" y="55" width="240" height="70" rx="4" fill="var(--panel)" stroke="var(--rule)"/><text class="mono" x="190.0" y="84" fill="var(--ink)" font-size="14" text-anchor="middle" letter-spacing="1">AI ENGINEERING</text><text class="mono" x="190.0" y="104" fill="var(--muted)" font-size="10" text-anchor="middle">LLMs · local inference</text></g><g class="pop a3"><rect x="790" y="55" width="240" height="70" rx="4" fill="var(--panel)" stroke="var(--rule)"/><text class="mono" x="910.0" y="84" fill="var(--ink)" font-size="14" text-anchor="middle" letter-spacing="1">FULL-STACK</text><text class="mono" x="910.0" y="104" fill="var(--muted)" font-size="10" text-anchor="middle">web · APIs · data</text></g><g class="pop a4"><rect x="70" y="225" width="240" height="70" rx="4" fill="var(--panel)" stroke="var(--rule)"/><text class="mono" x="190.0" y="254" fill="var(--ink)" font-size="14" text-anchor="middle" letter-spacing="1">ANDROID</text><text class="mono" x="190.0" y="274" fill="var(--muted)" font-size="10" text-anchor="middle">Kotlin · Compose</text></g><g class="pop a5"><rect x="790" y="225" width="240" height="70" rx="4" fill="var(--panel)" stroke="var(--rule)"/><text class="mono" x="910.0" y="254" fill="var(--ink)" font-size="14" text-anchor="middle" letter-spacing="1">BACKEND</text><text class="mono" x="910.0" y="274" fill="var(--muted)" font-size="10" text-anchor="middle">auth · database · APIs</text></g><g class="pop a6"><rect x="430" y="275" width="240" height="70" rx="4" fill="var(--panel)" stroke="var(--rule)"/><text class="mono" x="550.0" y="304" fill="var(--ink)" font-size="14" text-anchor="middle" letter-spacing="1">OPEN SOURCE</text><text class="mono" x="550.0" y="324" fill="var(--muted)" font-size="10" text-anchor="middle">learn · build · share</text></g><text class="mono" x="1160" y="390" fill="var(--muted)" font-size="10" text-anchor="end" letter-spacing="2">DASHED LINES — IDEAS IN MOTION</text>
+</svg>

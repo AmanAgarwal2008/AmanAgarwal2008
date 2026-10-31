@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+<title id="t">Aman's engineering timeline</title><desc id="d">Animated timeline highlighting product building, collaborative engineering and AI experiments.</desc>
+<style>
+:root{--paper:#f7f5ef;--ink:#20251f;--muted:#667067;--rule:#c9cec5;--accent:#47745b;--accent2:#b47b42;--panel:#eeece4;--ghost:#dfe4dc}
+@media(prefers-color-scheme:dark){:root{--paper:#101612;--ink:#edf1e9;--muted:#a3afa5;--rule:#3b4940;--accent:#b7e4c7;--accent2:#e5b879;--panel:#19231d;--ghost:#26332b}}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.draw{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.5s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.rise{opacity:0;animation:rise .85s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.fade{opacity:0;animation:fade .8s ease forwards}
+@keyframes fade{to{opacity:1}}
+.pop{opacity:0;animation:pop .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes pop{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.flow{stroke-dasharray:3 9;animation:march 1.5s linear infinite}
+@keyframes march{to{stroke-dashoffset:-24}}
+.pulse{animation:pulse 2.8s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.type{animation:type 3.8s steps(48,end) .9s both}
+@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.cursor{animation:blink .85s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.a1{animation-delay:.15s}.a2{animation-delay:.4s}.a3{animation-delay:.7s}.a4{animation-delay:1s}.a5{animation-delay:1.3s}.a6{animation-delay:1.6s}
+@media(prefers-reduced-motion:reduce){.draw,.rise,.fade,.pop,.flow,.pulse,.type,.cursor{animation:none!important}.draw{stroke-dashoffset:0}.rise,.fade,.pop{opacity:1}.cursor{visibility:visible}}
+</style>
+<rect width="100%" height="100%" rx="12" fill="var(--paper)"/>
+
+<line x1="105" y1="40" x2="105" y2="335" stroke="var(--rule)" stroke-width="1.5"/>
+<line class="draw a1" x1="105" y1="40" x2="105" y2="335" stroke="var(--accent)" stroke-width="2"/>
+<g class="pop a1"><circle cx="105" cy="72" r="6" fill="var(--accent)"/><text class="mono" x="145" y="67" fill="var(--accent)" font-size="11" letter-spacing="2">PRODUCT BUILDING</text><text class="serif" x="145" y="99" fill="var(--ink)" font-size="25">NEET CBT MASTERS</text><text class="mono" x="145" y="124" fill="var(--muted)" font-size="13">Developing an AI-assisted question engine and online testing experience.</text></g>
+<g class="pop a2"><circle cx="105" cy="166" r="6" fill="var(--accent2)"/><text class="mono" x="145" y="161" fill="var(--accent)" font-size="11" letter-spacing="2">COLLABORATIVE ENGINEERING</text><text class="serif" x="145" y="193" fill="var(--ink)" font-size="25">MyGPM Student Portal</text><text class="mono" x="145" y="218" fill="var(--muted)" font-size="13">Working across application architecture, backend and database integration.</text></g>
+<g class="pop a3"><circle cx="105" cy="260" r="6" fill="var(--accent)"/><text class="mono" x="145" y="255" fill="var(--accent)" font-size="11" letter-spacing="2">MOBILE &amp; AI EXPERIMENTS</text><text class="serif" x="145" y="287" fill="var(--ink)" font-size="25">Build, test, learn, repeat</text><text class="mono" x="145" y="312" fill="var(--muted)" font-size="13">Android applications, local LLMs, developer tools and open-source exploration.</text></g>
+
+</svg>
