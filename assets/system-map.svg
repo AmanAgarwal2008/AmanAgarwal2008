@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img">
+<rect width="1100" height="300" rx="16" fill="#17201c"/>
+<g fill="none" stroke="#b7e4c7" stroke-width="2" opacity=".75"><path d="M550 150H180M550 150H920M550 150V65M550 150V245"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="405" y="105" width="290" height="90" rx="12" fill="#28372f" stroke="#b7e4c7"/><text x="550" y="143" fill="#f3f1e8" font-size="23" font-weight="bold">PRODUCT ENGINEERING</text><text x="550" y="169" fill="#b7e4c7" font-size="13">Build · integrate · iterate</text>
+<rect x="55" y="105" width="250" height="90" rx="12" fill="#202923" stroke="#d8b77e"/><text x="180" y="143" fill="#f3f1e8" font-size="20">AI SYSTEMS</text><text x="180" y="169" fill="#c7d2ca" font-size="13">LLMs · inference · tooling</text>
+<rect x="795" y="105" width="250" height="90" rx="12" fill="#202923" stroke="#d8b77e"/><text x="920" y="143" fill="#f3f1e8" font-size="20">APPLICATIONS</text><text x="920" y="169" fill="#c7d2ca" font-size="13">Web · Android · UX</text>
+<rect x="425" y="18" width="250" height="65" rx="10" fill="#202923" stroke="#b7e4c7"/><text x="550" y="57" fill="#f3f1e8" font-size="19">BACKEND &amp; DATA</text>
+<rect x="425" y="217" width="250" height="65" rx="10" fill="#202923" stroke="#b7e4c7"/><text x="550" y="256" fill="#f3f1e8" font-size="19">OPEN SOURCE</text>
+</g></svg>
